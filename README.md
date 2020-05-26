@@ -7,6 +7,7 @@ JWT是一个轻便的安全跨平台传输格式，定义了一个<code>**紧凑
 
 **JWT的结构**
 JWT由三段信息用.连接构成的字符串。
+
 **<code>Header</code>.<code>Payload</code>.<code>Signature</code>**
 例如：
 <table><tr><td bgcolor=#D1EEEE><font color=blue>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxIn0.ihOZFzg3ZGIbBMneRy-4RMqors1P3nuO-wRJnQtTzWQ</font></td></tr></table>
@@ -213,12 +214,15 @@ public class UserApi {
 **下面（根据JWT工作流程）进行测试，启动项目，使用[点击这里下载>postman](https://www.postman.com)测试接口**
 
 1.在未使用账号密码和<code>token</code>登录的情况下，访问<font color=red>api/getMessage</font>接口
+
 <font color=green>**GET**</font> http://localhost:8080/api/getMessage
 
 2.使用账号密码进行登录，访问<font color=red>api/login</font>接口，从而获取<code>token</code>
+
 <font color=orange>**POST**</font> http://localhost:8080/api/login
 
 3.在请求头中加入token，再次访问<font color=red>api/getMessage</font>接口
+
 <font color=green>**GET**</font> http://localhost:8080/api/getMessage
 
 点击这里>[CSDN项目博客地址-SpringBoot集成JWT实现token验证](https://blog.csdn.net/weixin_44316527/article/details/106357414)
