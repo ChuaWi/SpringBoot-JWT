@@ -6,7 +6,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * @author ChuaWi
+ *
  * @date 2020-05-26
  */
 

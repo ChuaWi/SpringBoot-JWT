@@ -5,7 +5,7 @@ import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Component;
 
 /**
- * @author ChuaWi
+ *
  * @date 2020-05-26
  */
 
