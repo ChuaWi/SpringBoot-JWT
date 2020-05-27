@@ -2,12 +2,12 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.cw.jwt.mapper.UserMapper">
     <select id="findByUsername" resultType="com.cw.jwt.entity.User">
-      SELECT * FROM user
+      SELECT * FROM jwt_user
       where
       username=#{username}
     </select>
     <select id="findUserById" resultType="com.cw.jwt.entity.User">
-        SELECT * FROM user
+        SELECT * FROM jwt_user
       where
       id=#{Id}
     </select>
