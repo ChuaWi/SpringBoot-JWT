@@ -229,7 +229,5 @@ public class UserApi {
 
 点击这里>[Github项目源码地址-SpringBoot集成JWT实现token验证](https://github.com/ChuaWi/SpringBoot-JWT)
 
-[学习网址1：基于JWT的token认证机制](https://blog.csdn.net/why15732625998)
-
-[学习网址2：SpringBoot集成JWT实现token](https://www.jianshu.com/u/f192766abeab)
+[学习网址：SpringBoot集成JWT实现token](https://www.jianshu.com/p/e88d3f8151db)
  
