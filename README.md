@@ -217,13 +217,21 @@ public class UserApi {
 
 <font color=green>**GET**</font> http://localhost:8080/api/getMessage
 
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200529165903803.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDMxNjUyNw==,size_16,color_FFFFFF,t_70)
+
 2.使用账号密码进行登录，访问<font color=red>api/login</font>接口，从而获取<code>token</code>
 
 <font color=orange>**POST**</font> http://localhost:8080/api/login
 
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200529165931878.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDMxNjUyNw==,size_16,color_FFFFFF,t_70)
+
 3.在请求头中加入token，再次访问<font color=red>api/getMessage</font>接口
 
 <font color=green>**GET**</font> http://localhost:8080/api/getMessage
+
+加上<code>**token**</code>之后就可以通过验证和进行接口访问……
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200529165954598.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDMxNjUyNw==,size_16,color_FFFFFF,t_70)
 
 点击这里>[CSDN项目博客地址-SpringBoot集成JWT实现token验证](https://blog.csdn.net/weixin_44316527/article/details/106357414)
 
